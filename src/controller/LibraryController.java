@@ -1,13 +1,14 @@
 package controller;
 
-import entity.Book;
-import entity.Member;
-import entity.Loan;
-import repository.BookRepository;
-import repository.MemberRepository;
-import service.LoanService;
-import config.FinePolicy;
-import factory.BookFactory;
+import CatalogComponent.Book;
+import LoanManagementComponent.BookAlreadyOnLoanException;
+import LoanManagementComponent.Loan;
+import CatalogComponent.BookRepository;
+import MemberManagementComponent.MemberNotFoundException;
+import MemberManagementComponent.MemberRepository;
+import LoanManagementComponent.LoanService;
+import LoanManagementComponent.FinePolicy;
+import CatalogComponent.BookFactory;
 import builder.LoanReport;
 import exception.*;
 import java.sql.SQLException;

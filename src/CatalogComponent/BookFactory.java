@@ -1,6 +1,5 @@
-package factory;
+package CatalogComponent;
 
-import entity.*;
 public class BookFactory {
 
     public static Book createBook(Book.BookType type) {

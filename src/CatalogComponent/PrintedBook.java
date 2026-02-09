@@ -1,4 +1,5 @@
-package entity;
+package CatalogComponent;
+
 public class PrintedBook extends Book {
     private int pages;
 

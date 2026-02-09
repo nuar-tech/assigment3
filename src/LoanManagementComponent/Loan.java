@@ -1,4 +1,4 @@
-package entity;
+package LoanManagementComponent;
 import java.time.LocalDate;
 
 public class Loan {

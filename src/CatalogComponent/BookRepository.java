@@ -1,11 +1,7 @@
-package repository;
+package CatalogComponent;
 
-import entity.Book;
-import entity.PrintedBook;
-import entity.Ebook;
-import entity.ReferenceBook;
-import factory.BookFactory;
 import edu.aitu.oop3.db.DatabaseConnection;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

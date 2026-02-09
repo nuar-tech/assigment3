@@ -1,4 +1,7 @@
-package exception;
+package LoanManagementComponent;
+
+import exception.LibraryException;
+
 public class LoanOverdueException extends LibraryException {
     private final double fineAmount;
     public LoanOverdueException(String message, double fineAmount) {

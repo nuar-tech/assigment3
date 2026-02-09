@@ -1,4 +1,4 @@
-package entity;
+package MemberManagementComponent;
 import java.time.LocalDate;
 
 public class Member {

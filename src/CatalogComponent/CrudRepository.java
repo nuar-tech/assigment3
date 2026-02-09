@@ -1,5 +1,4 @@
-package repository;
-import entity.Book;
+package CatalogComponent;
 
 import java.sql.SQLException;
 import java.util.List;

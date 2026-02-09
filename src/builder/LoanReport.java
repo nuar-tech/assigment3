@@ -1,6 +1,6 @@
 package builder;
 
-import entity.Loan;
+import LoanManagementComponent.Loan;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 

@@ -1,4 +1,6 @@
-package exception;
+package MemberManagementComponent;
+
+import exception.LibraryException;
 
 public class MemberNotFoundException extends LibraryException {
     public MemberNotFoundException(String message) {

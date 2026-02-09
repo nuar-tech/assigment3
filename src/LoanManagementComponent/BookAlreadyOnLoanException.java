@@ -1,4 +1,7 @@
-package exception;
+package LoanManagementComponent;
+
+import exception.LibraryException;
+
 public class BookAlreadyOnLoanException extends LibraryException {
     public BookAlreadyOnLoanException(String message) {
         super(message);

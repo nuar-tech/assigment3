@@ -1,4 +1,5 @@
-package entity;
+package CatalogComponent;
+
 public class ReferenceBook extends Book {
     private String location;
 

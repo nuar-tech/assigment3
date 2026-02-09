@@ -1,4 +1,4 @@
-package config;
+package LoanManagementComponent;
 
 import edu.aitu.oop3.db.DatabaseConnection;
 import java.sql.*;

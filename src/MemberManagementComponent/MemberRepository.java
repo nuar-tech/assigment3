@@ -1,8 +1,7 @@
-package repository;
+package MemberManagementComponent;
 
-import entity.Member;
 import edu.aitu.oop3.db.DatabaseConnection;
-import exception.MemberNotFoundException;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,11 @@
+import CatalogComponent.Ebook;
+import CatalogComponent.PrintedBook;
 import controller.LibraryController;
-import config.FinePolicy;
-import entity.Book;
-import factory.BookFactory;
+import LoanManagementComponent.FinePolicy;
+import CatalogComponent.Book;
+import CatalogComponent.BookFactory;
 import builder.LoanReport;
-import entity.Loan;
+import LoanManagementComponent.Loan;
 import java.time.LocalDate;
 import java.util.Scanner;
 
@@ -205,15 +207,15 @@ public class Main {
             if (bookType == Book.BookType.PRINTED) {
                 System.out.print("Enter number of pages: ");
                 int pages = Integer.parseInt(scanner.nextLine());
-                ((entity.PrintedBook) newBook).setPages(pages);
+                ((PrintedBook) newBook).setPages(pages);
             } else if (bookType == Book.BookType.EBOOK) {
                 System.out.print("Enter file size in MB: ");
                 double fileSize = Double.parseDouble(scanner.nextLine());
-                ((entity.Ebook) newBook).setFileSizeMB(fileSize);
+                ((Ebook) newBook).setFileSizeMB(fileSize);
 
                 System.out.print("Enter format (PDF/EPUB): ");
                 String format = scanner.nextLine();
-                ((entity.Ebook) newBook).setFormat(format);
+                ((Ebook) newBook).setFormat(format);
             }
 
             System.out.println("\nBook created successfully using Factory Pattern!");

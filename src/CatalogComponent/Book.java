@@ -1,4 +1,4 @@
-package entity;
+package CatalogComponent;
 public abstract class Book {
     private int id;
     private String isbn;

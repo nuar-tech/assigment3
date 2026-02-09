@@ -1,4 +1,5 @@
-package entity;
+package CatalogComponent;
+
 public class Ebook extends Book {
     private double fileSizeMB;
     private String format;

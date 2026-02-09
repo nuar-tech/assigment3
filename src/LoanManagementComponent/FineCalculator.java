@@ -1,4 +1,4 @@
-package service;
+package LoanManagementComponent;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 

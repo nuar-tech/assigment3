@@ -1,11 +1,11 @@
-package service;
+package LoanManagementComponent;
 
 import edu.aitu.oop3.db.DatabaseConnection;
-import entity.Loan;
-import entity.Book;
-import repository.BookRepository;
-import repository.MemberRepository;
+import CatalogComponent.Book;
+import CatalogComponent.BookRepository;
+import MemberManagementComponent.MemberRepository;
 import exception.*;
+
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
